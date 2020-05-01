@@ -19,5 +19,6 @@ public  class CaptchaAction  extends ActionSupport {
 		}else{
 		return SUCCESS;
 		}
+		// return error if invalid code else return success
 	}
 }
